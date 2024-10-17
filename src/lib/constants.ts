@@ -147,11 +147,11 @@ export const tabData = [
 export const footerLinks = [
   {
     name: "Privacy Policy",
-    url: "/",
+    url: "/privacy-policy",
   },
   {
     name: "Terms & Conditions",
-    url: "/",
+    url: "/terms-and-conditions",
   },
   {
     name: "ReferralProgram",
