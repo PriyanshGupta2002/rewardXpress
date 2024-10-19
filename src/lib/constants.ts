@@ -15,14 +15,15 @@ export const navMenuItems = [
 
 export const donwloadLinks: DownloadBtnTypes[] = [
   {
-    appLink: "#",
+    appLink: "https://apps.apple.com/in/app/rewardxpress/id6642685265",
     provider: "App Store",
     svgLink: "/assets/appstore.svg",
     text: "Download on the",
   },
 
   {
-    appLink: "#",
+    appLink:
+      "https://play.google.com/store/apps/details?id=com.wayappsdeveloper.rewardxpressapp",
     provider: "Google Play",
     svgLink: "/assets/googlePlay.svg",
     text: "GET IT ON",

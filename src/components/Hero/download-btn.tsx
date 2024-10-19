@@ -16,7 +16,7 @@ const DownloadBtn: FC<DownloadBtnTypes> = ({
   svgLink,
 }) => {
   return (
-    <Link href={appLink}>
+    <Link href={appLink} target="__blank" rel="noreferrer">
       <div className="flex items-center gap-3 cursor-pointer bg-gray-200 shadow-sm w-[250px] justify-center py-2 px-4 rounded-lg">
         <div>
           <Image src={svgLink} alt={provider} height={60} width={60} />
