@@ -97,7 +97,7 @@ export const tabData = [
       },
       {
         question: "How to support contact?",
-        answer: "Email us to support@rewardxpress.com",
+        answer: "Email us to support@rewardxpress.net",
       },
       {
         question: "Is my data secure?",
