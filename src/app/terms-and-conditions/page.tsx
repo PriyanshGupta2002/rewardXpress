@@ -26,7 +26,7 @@ const page = () => {
         <section>
           <h2>1. Acceptance of Terms</h2>
           <p>
-            By downloading, installing, or using the RewardXpress application
+            By downloading, installing, or using the RewardExpress application
             (&quot;App&quot;), you agree to be bound by these Terms and
             Conditions (&quot;Terms&quot;). If you do not agree to these Terms,
             do not use the App.
@@ -48,7 +48,7 @@ const page = () => {
             App. Phone number verification may be required for certain
             activities, such as redeeming rewards.
             <br />
-            2.4. RewardXpress and Wayappdevelopers reserve the right to modify
+            2.4. RewardExpress and Wayappdevelopers reserve the right to modify
             the authentication process without prior notice if necessary for
             security reasons.
           </p>
@@ -60,7 +60,7 @@ const page = () => {
             3.1. Users who refer new users will receive a 10% flat rate on all
             approved earnings of the referred user.
             <br />
-            3.2. RewardXpress reserves the right to modify or terminate the
+            3.2. RewardExpress reserves the right to modify or terminate the
             referral program at any time.
           </p>
         </section>
@@ -71,21 +71,21 @@ const page = () => {
             4.1. Surveys are provided in collaboration with third-party
             providers, including but not limited to Pollfish and Tapresearch.
             <br />
-            4.2. RewardXpress does not have access to individual survey
+            4.2. RewardExpress does not have access to individual survey
             responses. Survey responses are used for research purposes only, as
             per the policies of the survey providers.
             <br />
-            4.3. RewardXpress may have access to demographic data and
+            4.3. RewardExpress may have access to demographic data and
             advertising identifiers as provided by survey partners.
             <br />
             4.4. Daily rewards may vary in value and format, and may include
             advertisements, website links, or video content.
             <br />
-            4.5. RewardXpress is not responsible for the content or policies of
+            4.5. RewardExpress is not responsible for the content or policies of
             third-party survey providers. Users are encouraged to review the
             privacy policies of these providers.
             <br />
-            4.6. As RewardXpress is a partner of multiple survey providing
+            4.6. As RewardExpress is a partner of multiple survey providing
             netwroks, it uses their logos to denote the providers in the app.
           </p>
         </section>
@@ -117,8 +117,9 @@ const page = () => {
             determined by the policies of partner websites or e-commerce
             platforms.
             <br />
-            6.3. RewardXpress is not responsible for changes in partner policies
-            and may not always be able to provide prior notice of such changes.
+            6.3. RewardExpress is not responsible for changes in partner
+            policies and may not always be able to provide prior notice of such
+            changes.
           </p>
         </section>
 
@@ -143,11 +144,11 @@ const page = () => {
         <section>
           <h2>8. Coupons</h2>
           <p>
-            8.1. RewardXpress may present offers from various brands but does
+            8.1. RewardExpress may present offers from various brands but does
             not guarantee the availability or suitability of offers for
             individual users.
             <br />
-            8.2. RewardXpress is not responsible for the fulfillment or any
+            8.2. RewardExpress is not responsible for the fulfillment or any
             disputes related to these offers.
           </p>
         </section>
@@ -158,7 +159,7 @@ const page = () => {
             9.1. If a user does not log in to their account for 365 consecutive
             days, all unredeemed coins will expire.
             <br />
-            9.2. RewardXpress will try to send an email to the user for
+            9.2. RewardExpress will try to send an email to the user for
             reminding them regarding the inactive acount before the inactivity
             count hits 365 days.
             <br />
@@ -169,11 +170,11 @@ const page = () => {
         <section>
           <h2>10. Modifications to the App and Terms</h2>
           <p>
-            10.1. RewardXpress reserves the right to modify or discontinue the
+            10.1. RewardExpress reserves the right to modify or discontinue the
             App or any feature thereof at any time without notice.
             <br />
-            10.2. RewardXpress may update these Terms at any time. Continued use
-            of the App after any changes constitutes acceptance of the new
+            10.2. RewardExpress may update these Terms at any time. Continued
+            use of the App after any changes constitutes acceptance of the new
             Terms.
           </p>
         </section>
@@ -181,7 +182,7 @@ const page = () => {
         <section>
           <h2>11. Limitation of Liability</h2>
           <p>
-            RewardXpress and its affiliates shall not be liable for any
+            RewardExpress and its affiliates shall not be liable for any
             indirect, incidental, special, consequential, or punitive damages
             resulting from the use or inability to use the App.
           </p>
@@ -200,7 +201,7 @@ const page = () => {
           <h2>13. Contact Information</h2>
           <p>
             If you have any questions regarding these Terms, please contact us
-            at support@RewardXpress.net.
+            at support@RewardExpress.net.
           </p>
         </section>
       </div>

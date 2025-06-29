@@ -11,11 +11,15 @@ export const navMenuItems = [
     name: "Get Support",
     link: "/get-support",
   },
+  {
+    name: "Blogs",
+    link: "/blog",
+  },
 ];
 
 export const donwloadLinks: DownloadBtnTypes[] = [
   {
-    appLink: "https://apps.apple.com/in/app/rewardxpress/id6642685265",
+    appLink: "https://apps.apple.com/in/app/RewardExpress/id6642685265",
     provider: "App Store",
     svgLink: "/assets/appstore.svg",
     text: "Download on the",
@@ -23,7 +27,7 @@ export const donwloadLinks: DownloadBtnTypes[] = [
 
   {
     appLink:
-      "https://play.google.com/store/apps/details?id=com.wayappsdeveloper.rewardxpressapp",
+      "https://play.google.com/store/apps/details?id=com.wayappsdeveloper.RewardExpressapp",
     provider: "Google Play",
     svgLink: "/assets/googlePlay.svg",
     text: "GET IT ON",
@@ -75,7 +79,7 @@ export const tabData = [
         question:
           "What are Pollfish, Tapresearch and other names and images shown in the app?",
         answer:
-          "They are the partner survey networks that RewardXpress has tied up with for providing surveys to its users. The images users see consists of logos and names of these survey networks. The number of networks may change in the future if new partners are introduced or old ones leave. ",
+          "They are the partner survey networks that RewardExpress has tied up with for providing surveys to its users. The images users see consists of logos and names of these survey networks. The number of networks may change in the future if new partners are introduced or old ones leave. ",
       },
       {
         question: "How do upload bill for coins works?",
@@ -98,7 +102,7 @@ export const tabData = [
       },
       {
         question: "How to support contact?",
-        answer: "Email us to support@rewardxpress.net",
+        answer: "Email us to support@RewardExpress.net",
       },
       {
         question: "Is my data secure?",
@@ -139,7 +143,7 @@ export const tabData = [
       },
       {
         question: "Who is elegible to join the program?",
-        answer: "Any member of the RewardXpress app is eligible to join",
+        answer: "Any member of the RewardExpress app is eligible to join",
       },
     ],
   },
@@ -159,3 +163,7 @@ export const footerLinks = [
     url: "/referral-program",
   },
 ];
+
+export const envVars = {
+  baseUrl: process.env.NEXT_PUBLIC_BASE_URL,
+};

@@ -20,3 +20,14 @@ export interface faqResponse {
   question: string;
   answer: string;
 }
+
+export interface BlogDataType {
+  title: string;
+  imageUrl: string;
+  urlToPost: string;
+  postedOn: string;
+}
+
+export interface BlogListProps {
+  blogList: BlogDataType[];
+}

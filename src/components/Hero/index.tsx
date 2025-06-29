@@ -5,6 +5,7 @@ import { cn } from "@/lib/utils";
 
 import DownloadBtn from "./download-btn";
 import { donwloadLinks } from "@/lib/constants";
+import { RotatingText } from "../rotating-text";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -21,7 +22,8 @@ const Hero = () => {
             "text-7xl text-zinc-800 font-bold"
           )}
         >
-          Earn Money by answering surveys
+          Earn Money by <br />
+          <RotatingText />
         </div>
         <div className="flex items-center gap-5">
           {donwloadLinks.map((item, idx) => (

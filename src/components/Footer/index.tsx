@@ -24,7 +24,7 @@ const Footer = () => {
               <h3
                 className={`${montserrat.className} text-2xl text-brand-color`}
               >
-                RewardXpress
+                RewardExpress
               </h3>
             </span>
           </Link>
@@ -53,7 +53,7 @@ const Footer = () => {
 
           <span className="flex items-center  font-bold">
             <h3 className={`text-base text-brand-color`}>
-              RewardXpress {date.getFullYear()}{" "}
+              RewardExpress {date.getFullYear()}{" "}
             </h3>
           </span>
         </div>

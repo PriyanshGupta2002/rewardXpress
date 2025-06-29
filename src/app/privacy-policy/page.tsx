@@ -25,7 +25,7 @@ const page = () => {
         <section>
           <h2>1. Introduction</h2>
           <p>
-            Welcome to RewardXpress! Your privacy is important to us. This
+            Welcome to RewardExpress! Your privacy is important to us. This
             Privacy Policy explains how we collect, use, and share your personal
             information when you use our mobile application (&quot;App&quot;).
           </p>
@@ -146,7 +146,7 @@ const page = () => {
           </ul>
           <p>
             To exercise these rights, please contact us at
-            support@RewardXpress.net.
+            support@RewardExpress.net.
           </p>
         </section>
 
@@ -156,7 +156,7 @@ const page = () => {
             We do not knowingly collect personal information from children under
             the age of 13. If you are a parent or guardian and believe your
             child has provided us with personal information, please contact us
-            immediately at support@RewardXpress.net, and we will take steps to
+            immediately at support@RewardExpress.net, and we will take steps to
             delete such information from our systems.
           </p>
         </section>
@@ -209,7 +209,7 @@ const page = () => {
           <h2>11. Contact Us</h2>
           <p>
             If you have any questions about this Privacy Policy, please contact
-            us at support@RewardXpress.net.
+            us at support@RewardExpress.net.
           </p>
         </section>
       </div>

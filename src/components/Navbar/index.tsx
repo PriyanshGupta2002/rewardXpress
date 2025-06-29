@@ -32,7 +32,7 @@ const Navbar = () => {
           <Image src={"/assets/logo.png"} alt="" width={60} height={30} />
 
           <h3 className={`${montserrat.className} text-2xl text-brand-color`}>
-            RewardXpress
+            RewardExpress
           </h3>
         </span>
       </Link>

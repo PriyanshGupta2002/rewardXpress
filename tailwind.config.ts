@@ -9,6 +9,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      aspectRatio: {
+        "30/9": "30 / 9",
+      },
       colors: {
         "brand-color": "#dd7c32",
         "brand-secodary": "#f4f2f5",
@@ -60,6 +63,26 @@ const config: Config = {
         sm: "calc(var(--radius) - 4px)",
       },
       keyframes: {
+        "text-slide": {
+          "0%, 16%": {
+            transform: "translateY(0%)",
+          },
+          "20%, 36%": {
+            transform: "translateY(-16.66%)",
+          },
+          "40%, 56%": {
+            transform: "translateY(-33.33%)",
+          },
+          "60%, 76%": {
+            transform: "translateY(-50%)",
+          },
+          "80%, 96%": {
+            transform: "translateY(-66.66%)",
+          },
+          "100%": {
+            transform: "translateY(-83.33%)",
+          },
+        },
         float: {
           "0%, 100%": { transform: "translateY(0)" },
           "50%": { transform: "translateY(-20px)" },
@@ -86,9 +109,11 @@ const config: Config = {
         "accordion-down": "accordion-down 0.2s ease-out",
         float: "float 3s ease-in-out infinite",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "text-slide":
+          "text-slide 12.5s cubic-bezier(0.83, 0, 0.17, 1) infinite",
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [require("tailwindcss-animate"), require("@tailwindcss/typography")],
 };
 export default config;
